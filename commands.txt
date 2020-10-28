@@ -1,0 +1,46 @@
+echo "hello"		To output text on screen
+
+clear			To clear sscreen
+
+pwd			display current working directory
+
+ls			list all files and folders in the current directory
+
+cd			change current directory
+
+cd ..			go to imediate parent directory
+
+man [cmd]		manual for the mentioned command [cmd]
+
+exit			exit the terminal
+
+touch			create a file
+
+echo "info">>filename	append info to a given file
+
+head filename		shows the top 10 content of the file filename
+			note: mention extention of a given filename such as .txt
+
+tail filename		show bottom 10 content of a filename
+
+cat filename		show all content of a given filename
+			note: can print content of multiple files simultanously
+
+nano filename		enters the editor from which you can manually edit the content
+
+grep word File		search the word in the given File
+
+a|b			a and b are expression. here we move the output of a as input of b
+
+rm file			remove the file			 
+
+mkdir folder		make folder in present directory
+
+cd foldername 		change to mentioned folder
+
+mv oldname newname	change old filename to new filename
+
+cp location1 location2	copy folder/file pointing to location1 to location2
+
+ 
+

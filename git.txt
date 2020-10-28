@@ -1,0 +1,19 @@
+1). Git is version control i.e it keeps track of changes done to a file or set of files over time. so you can go back to a specific version in case the new updates cause problems. We need Git because instead of creating new files every time you update a particular part of the file, this all can work as one single file with multiple versions, secondly, it's easier to collaborate with different people on the same file easily using Git.
+
+2). Once changes are made for a given version we create a snapshot of this new modified version along with the parts that were untouched. This snapshot is called Commit. i.e each commit has an updated version of what was changed along with what was unchanged eg (a,b,c,d)--->(a1,b,c,d). These commits are used when updating a feature or solving a bug.
+
+3). Git initially compares both the files and checks if they are the same,
+the parts that are the same are ignored. If any changes are found in a given part it commits the changed information. i.e creates a new snapshot
+
+4). There are 3 stages of Git. i.e the Untracked area, the staging area, the committed area
+"The untracked area"
+This area is where we work on i.e where we create, update, or delete a file. We do not check for changes in this file
+
+"The staging area"
+here we compare the previous version with the content of the untracked area, if they are the same we ignore the next area. If a difference is found in the untracked area and the previous version, it's sent to the committed stage where a snapshot is created.
+
+"committed area"
+if content is altered a snapshot is created with the altered content as well as the untouched content and saving it as a new version. 
+
+
+
